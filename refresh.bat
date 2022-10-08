@@ -1,4 +1,4 @@
-timeout 1
+timeout 2
 @echo off
 ::
 :: RefreshEnv.cmd
@@ -66,4 +66,4 @@ goto main
 
     echo | set /p dummy="Finished."
     echo .
-timeout 1
+timeout 5

@@ -14,8 +14,8 @@ Sleep 5
 Stop
 Print "Installing Java 8"
 'Shell "CMD /c msiexec /i OpenJDK8U.msi ADDLOCAL=FeatureMain,FeatureEnvironment,FeatureJarFileRunWith,FeatureJavaHome,FeatureOracleJavaSoft /log install.log"
-Shell "call termux.bat"
-Sleep 20
+'Shell "call termux.bat"
+'Sleep 20
 Print "Enviroment settings"
 Shell "call call refresh.bat"
 Sleep 2

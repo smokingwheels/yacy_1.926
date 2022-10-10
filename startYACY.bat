@@ -35,7 +35,7 @@ Rem commandline parameter added for -config option, like -config "port=8090" "ad
 Rem special parameter "adminAccount=admin:password" calculates and sets new admin-pwd
 Rem any parameter in yacy.conf can me modified this way (make sure to use correct upper/lower case)
 
-start %priority% java %javacmd% -classpath %CLASSPATH% net.yacy.yacy %1 %2 %3 %4 %5 %6 %7 %8 %9
+start %priority% javaw %javacmd% -classpath %CLASSPATH% net.yacy.yacy %1 %2 %3 %4 %5 %6 %7 %8 %9
 
 Echo You can close the console safely now.
 
@@ -69,3 +69,4 @@ GoTo :STARTJAVA
 
 Rem Target needed to jump to the end of the file
 :END
+
